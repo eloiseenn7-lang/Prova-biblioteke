@@ -1,4 +1,4 @@
-# 📚 Biblioteka Dixhitale - Eloise_Enn
+# 📚 Biblioteka Dixhitale - Eloise Enn
 
 Mirësevini në arkivën time të materialeve studimore. 
 
