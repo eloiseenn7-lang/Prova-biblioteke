@@ -6,24 +6,36 @@
     <title>Biblioteka Ime Digjitale</title>
     <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f4da.png">
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 20px; background: #fdfdfd; }
+        body { font-family: sans-serif; text-align: center; padding: 20px; background: #fdfdfd; color: #333; }
         .box { max-width: 450px; margin: auto; background: white; padding: 25px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); border-top: 5px solid #d32f2f; }
-        h1 { color: #333; font-size: 20px; margin-bottom: 20px; }
-        .btn { display: block; padding: 15px; margin: 10px 0; background: #1976d2; color: white; text-decoration: none; border-radius: 10px; font-weight: bold; transition: 0.3s; }
+        h1 { font-size: 20px; margin-bottom: 25px; }
+        .section { margin-bottom: 30px; text-align: left; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        .section:last-child { border-bottom: none; }
+        .btn { display: block; padding: 15px; margin: 10px 0; background: #1976d2; color: white; text-decoration: none; border-radius: 10px; font-weight: bold; text-align: center; transition: 0.3s; }
         .btn:hover { background: #115293; transform: scale(1.02); }
-        .btn-anatomy { background: #2e7d32; } /* Ngjyrë e gjelbër për Anatominë */
-        .btn-derma { background: #607d8b; }   /* Ngjyrë gri për Dermatologjinë */
+        .desc { font-size: 13px; color: #666; line-height: 1.5; margin-left: 5px; }
+        .highlight { color: #d32f2f; font-weight: bold; }
     </style>
 </head>
 <body>
     <div class="box">
-        <h1>📚 Biblioteka Ime Dixhitale</h1>
+        <h1>📚 Biblioteka Ime Digjitale</h1>
         
-        <a href="https://mega.nz/folder/BJEUmYrY#i2k0EAve2lrWi6M-CdUCEA" class="btn" target="_blank">📖 Unitutor Zanichelli</a>
+        <div class="section">
+            <a href="https://mega.nz/folder/BJEUmYrY#i2k0EAve2lrWi6M-CdUCEA" class="btn" target="_blank">📖 Unitutor Zanichelli</a>
+            <p class="desc">Materiale gjithëpërfshirëse që shërbejnë për përgatitjen për <strong>testin e pranimit</strong> në universitet.</p>
+        </div>
 
-        <a href="https://mega.nz/folder/8NcDiajY#5MHHhHAZ9xwvLY5n7KYlgw" class="btn btn-anatomy" target="_blank">🦴 Human Anatomy 3D Interattiva</a>
+        <div class="section">
+            <a href="https://mega.nz/folder/8NcDiajY#5MHHhHAZ9xwvLY5n7KYlgw" class="btn" style="background:#2e7d32;" target="_blank">🦴 Human Anatomy 3D</a>
+            <p class="desc">Program interaktiv për studimin e anatomisë në 3D. 
+            <br><span class="highlight">⚠️ Udhëzim:</span> Për ta përdorur, shkarkoni të gjithë folderin në kompjuterin tuaj, ekstraktoni skedarët dhe hapni aplikacionin (file .exe) për një eksperiencë të plotë.</p>
+        </div>
 
-        <a href="https://mega.nz/folder/YUFwlDiR#H0EBIgTrtoq3yR4tRSP4Rw" class="btn btn-derma" target="_blank">🩺 Dermatologjia</a>
+        <div class="section">
+            <a href="https://mega.nz/folder/YUFwlDiR#H0EBIgTrtoq3yR4tRSP4Rw" class="btn" style="background:#607d8b;" target="_blank">🩺 Dermatologjia</a>
+            <p class="desc">Leksione dhe materiale studimi mbi sëmundjet e lëkurës.</p>
+        </div>
     </div>
 </body>
 </html>
