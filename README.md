@@ -1,4 +1,8 @@
-# Biblioteka Ime Test
-Këtu është materiali i provës për Dermatologjinë:
+# 📚 Biblioteka Dixhitale - Eloise
 
-[Kliko këtu për të hapur folderin e Dermatologjisë](https://mega.nz/folder/rrQhHZqI#b0vD0YUbdRO8DfHvVftJPw)
+Mirësevini në arkivën time të materialeve studimore. 
+
+### 🔗 Linku Zyrtar:
+Për të parë dhe shkarkuar të gjitha materialet me butona dhe përshkrimet përkatëse, klikoni këtu:
+
+👉 [**Hap Bibliotekën Digjitale**](https://eloiseenn7-lang.github.io/Prova-biblioteke/)
